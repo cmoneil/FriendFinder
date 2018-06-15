@@ -6,7 +6,7 @@ friendArray = [{
 },
 {
     name: "John",
-    photo: "IMG_0769.jpg",
+    photo: "/IMG_0769.jpg",
     scores: ["3", "4", "2", "4", "4", "3", "1" ,"2", "3", "1"]
 }]
 

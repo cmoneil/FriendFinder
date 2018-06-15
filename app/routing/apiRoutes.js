@@ -44,7 +44,7 @@ module.exports = function (app) {
 
         console.log("value: " + value);
         console.log("key: " + key)
-        bestFriend = friendArray[key]
+        bestFriend = friendArray[key];
         bestFriendPic = friendArray[key].photo;
         console.log(bestFriend);
         diffTotalArray = [];
