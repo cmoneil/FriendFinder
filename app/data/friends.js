@@ -1,12 +1,12 @@
 friendArray = [{
     name: "Jim",
-    photo: "/Users/conoroneil/Desktop/FriendFinder/app/data/IMG_0964.jpg",
+    photo: "/IMG_0964.jpg",
     scores: ["1", "2", "3", "4", "5", "4", "3" ,"2", "1", "1"]
 
 },
 {
     name: "John",
-    photo: "/Users/conoroneil/Desktop/FriendFinder/app/data/IMG_0964.jpg",
+    photo: "IMG_0769.jpg",
     scores: ["3", "4", "2", "4", "4", "3", "1" ,"2", "3", "1"]
 }]
 

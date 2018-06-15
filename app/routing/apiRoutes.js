@@ -3,6 +3,7 @@ var friendData = require('../data/friends.js');
 var diffArray = [];
 var diffTotalArray = [];
 var bestFriend;
+var bestFriendPic;
 
 module.exports = function (app) {
     app.get('/api/friends', function (req, res) {
@@ -43,7 +44,8 @@ module.exports = function (app) {
 
         console.log("value: " + value);
         console.log("key: " + key)
-        bestFriend = friendArray[key].name;
+        bestFriend = friendArray[key]
+        bestFriendPic = friendArray[key].photo;
         console.log(bestFriend);
         diffTotalArray = [];
         friendArray.push(req.body)

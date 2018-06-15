@@ -1,0 +1,28 @@
+body{
+    background-image: url(/newfriends.jpg);
+    background-size: 110%;
+    background-position: center;
+    color: black;
+}
+.submit {
+    margin-top: 10px;
+    width: 100%;
+}
+
+img{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.form {
+    width: 100%;
+}
+
+.jumbotron{
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.modal-content {
+    background-color: grey;
+}
+
